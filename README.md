@@ -78,6 +78,7 @@
 - **Epochs:** 4
 - **Maximum Sequence Length:** 512
 - **Batch Size:** 2
+- **LR:** 1e-4
 
 ## Results
 
