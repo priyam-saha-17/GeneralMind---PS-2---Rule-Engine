@@ -54,3 +54,18 @@ Summary
  	Model	Accuracy	Macro AUROC
 0	Default	24.00%	0.510
 1	Typed Decisions	35.60%	0.518
+
+
+
+
+
+Experiment 1: Kept the ModernBERT frozen, trained only the head. Epochs = 4, Max_len = 512, batch_size = 2, 
+Results:
+ 	Model	Accuracy	Macro AUROC
+0	Zero-shot Laya	24.00%	0.510
+1	Fine-tuned Laya	24.00%	0.495
+
+
+
+
+
